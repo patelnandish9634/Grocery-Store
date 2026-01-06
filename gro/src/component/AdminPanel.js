@@ -17,7 +17,7 @@ const AdminPanel = () => {
           <li><Link to="/adminpanel/orders"><i></i><span>Orders</span></Link></li>
           <li><Link to="/adminpanel/category"><i></i><span>Category</span></Link></li>
           
-          <li><Link to="/adminpanel/users"><i></i><span>Users</span></Link></li>
+          <li><Link to="/adminpanel/users"><i></i><span>Userss</span></Link></li>
           <li><Link to="/adminpanel/coupan"><i></i><span>Coupan</span></Link></li>
           <li><Link to="/logout"><i></i><span>Logout</span></Link></li>
         </ul>
