@@ -1,0 +1,232 @@
+/* HomePage.css
+.homepage {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav ul li a:hover {
+    color: #ff9800;
+  }
+  
+  .search-cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-cart input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  .cart-button {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-button:hover {
+    background-color: #e68900;
+  }
+  
+  .hero {
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin-bottom: 40px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .shop-now {
+    padding: 15px 30px;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now:hover {
+    background-color: #e68900;
+  }
+  
+  .categories {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .categories h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .category-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .category-buttons button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-buttons button.active {
+    background-color: #ff9800;
+  }
+  
+  .category-buttons button:hover {
+    background-color: #45a049;
+  }
+  
+  .featured-products {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featured-products h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .product-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .product-card p {
+    font-size: 18px;
+    color: #4CAF50;
+    margin-bottom: 15px;
+  }
+  
+  .product-card button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-card button:hover {
+    background-color: #45a049;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  html {
+    scrollbar-width: none;
+  }
+  
+  /* For Edge and IE 
+  body {
+    -ms-overflow-style: none;
+  }
+  body, html {
+    overflow: hidden;
+  }   */

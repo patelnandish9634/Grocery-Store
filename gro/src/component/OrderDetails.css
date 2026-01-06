@@ -1,0 +1,278 @@
+.order-details-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: "Segoe UI", sans-serif;
+    color: #333;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .progress-bar-container {
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .progress-steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .progress-step {
+    flex: 1;
+    text-align: center;
+    color: gray;
+    position: relative;
+  }
+  
+  .progress-step.completed {
+    color: #0073e6;
+  }
+  
+  .progress-track {
+    height: 6px;
+    background-color: #ddd;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background-color: #0073e6;
+    transition: width 0.4s ease;
+  }
+  
+  .cancelled-banner {
+    background-color: #ffe6e6;
+    color: #cc0000;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .status {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  .status.pending { background-color: #fff3cd; color: #856404; }
+  .status.cancelled { background-color: #f8d7da; color: #721c24; }
+  .status.completed { background-color: #d4edda; color: #155724; }
+  
+  .product-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .product-info img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 6px;
+  }
+  
+  /* OrderDetails.css additions */
+.summary-row.discount {
+  color: #4CAF50;
+}
+
+.summary-row.discount span:last-child {
+  font-weight: bold;
+}
+
+/* Existing styles... */
+.order-summary {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.summary-row.total {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+  .order-items table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  .order-items th,
+  .order-items td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .summary-row.total {
+    font-weight: bold;
+    font-size: 18px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .back-button,
+  .cancel-button {
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .back-button {
+    background-color: #e0e0e0;
+  }
+  .cancel-button {
+    background-color: #ff4d4f;
+    color: white;
+  }
+  .cancel-button:disabled {
+    background-color: #ff9999;
+    cursor: not-allowed;
+  }
+  
+  /* Styling for the cancel reason section */
+  .cancel-reason {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .cancel-reason h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .cancel-reason select,
+  .cancel-reason textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease;
+  }
+  
+  .cancel-reason select:focus,
+  .cancel-reason textarea:focus {
+    border-color: #0073e6;
+    outline: none;
+  }
+  
+  .cancel-reason textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .cancel-reason select option {
+    font-size: 16px;
+  }
+  
+  .progress-fill {
+    height: 6px;
+    background-color: #28a745;
+    border-radius: 6px;
+    transition: width 0.8s ease-in-out;
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.6);
+  }
+  
+  .delivered-image-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .delivered-image {
+    width: 100px;
+    animation: bounceIn 1s ease;
+  }
+  
+  .delivery-animation {
+    text-align: center;
+    margin-top: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .delivery-icon {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .delivered-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: green;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .delivered-message {
+    font-size: 1.2rem;
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
